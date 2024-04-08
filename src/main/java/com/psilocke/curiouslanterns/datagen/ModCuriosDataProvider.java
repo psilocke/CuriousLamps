@@ -16,7 +16,9 @@ public class ModCuriosDataProvider extends CuriosDataProvider {
 	@Override
 	public void generate(Provider registries, ExistingFileHelper fileHelper) {
 		// TODO Auto-generated method stub
-		this.createSlot("belt").size(1);
+		this.createEntities("entity_slots")
+			.addPlayer()
+			.addSlots("belt");
 	}
 
 }

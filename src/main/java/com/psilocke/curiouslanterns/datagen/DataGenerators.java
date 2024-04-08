@@ -17,8 +17,8 @@ public class DataGenerators {
 		
 		ModBlockTagsProvider blockTags = new ModBlockTagsProvider(event);
 		
-		gen.addProvider(true, new ModCuriosDataProvider(event));
+		gen.addProvider(event.includeServer(), new ModCuriosDataProvider(event));
 		gen.addProvider(event.includeServer(), blockTags);
-		gen.addProvider(true, new ModItemTagsProvider(event, blockTags));
+		gen.addProvider(event.includeServer(), new ModItemTagsProvider(event, blockTags));
 	}
 }
