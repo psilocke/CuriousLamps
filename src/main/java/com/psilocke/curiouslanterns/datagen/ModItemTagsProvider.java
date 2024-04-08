@@ -2,23 +2,24 @@ package com.psilocke.curiouslanterns.datagen;
 
 import com.psilocke.curiouslanterns.CuriousLanterns;
 
-import net.minecraft.data.DataGenerator;
-import net.minecraft.data.tags.BlockTagsProvider;
+import net.minecraft.core.HolderLookup.Provider;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.data.event.GatherDataEvent;
 import top.theillusivec4.curios.api.CuriosApi;
 
 public class ModItemTagsProvider extends ItemTagsProvider {
-	
+
 	public static final TagKey<Item> BELT = ItemTags.create(new ResourceLocation(CuriosApi.MODID, "belt"));
 	
-	protected ModItemTagsProvider(DataGenerator gen, BlockTagsProvider blockTags, ExistingFileHelper fileHelper) {
-		super(gen, blockTags, CuriousLanterns.MOD_ID, fileHelper);
+	protected ModItemTagsProvider(GatherDataEvent event, ModBlockTagsProvider blockTags) {
+		//super(event.getGenerator().getPackOutput(), event.getGenerator(), event.getLookupProvider(), CuriousLanterns.MOD_ID, event.getExistingFileHelper());
+		super(event.getGenerator().getPackOutput(), event.getLookupProvider(), blockTags.contentsGetter(), CuriousLanterns.MOD_ID, event.getExistingFileHelper());
 	}
+	
 
 	@Override
 	public String getName() {
@@ -27,7 +28,7 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 	}
 
 	@Override
-	protected void addTags() {
+	protected void addTags(Provider p_256380_) {
 		
 		//for normal mods
 		
