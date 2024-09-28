@@ -41,7 +41,6 @@ public class LargeLanternRenderer implements ICurioRenderer {
 		ItemRenderer itemRenderer = Minecraft.getInstance().getItemRenderer();
 		BlockRenderDispatcher blockRenderer = Minecraft.getInstance().getBlockRenderer();
 		LivingEntity living = slotContext.entity();
-		
 		if(living.isCrouching()) {
 			matrixStack.translate(0.0F, 0.14F, 0.31F);
 		}
