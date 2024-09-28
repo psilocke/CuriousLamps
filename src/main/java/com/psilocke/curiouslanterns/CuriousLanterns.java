@@ -18,23 +18,56 @@ public class CuriousLanterns {
 	public static String[] lanterns = {
 			"minecraft:lantern",
 			"minecraft:soul_lantern",
+			
 			"supplementaries:copper_lantern",
 			"supplementaries:crimson_lantern",
 			"supplementaries:silver_lantern",
 			"supplementaries:brass_lantern",
 			"supplementaries:lead_lantern",
+
+			"suppsquared:copper_lantern",
+			"suppsquared:crimson_lantern",
+			"suppsquared:brass_lantern",
+			
 			"cyclic:gold_lantern",
 			"cyclic:gold_soul_lantern",
 			"cyclic:copper_lantern",
 			"cyclic:copper_soul_lantern",
 			"cyclic:netherite_lantern",
+			
 			"mcwlights:striped_lantern",
 			"mcwlights:covered_lantern",
 			"mcwlights:chain_lantern",
 			"mcwlights:tavern_lantern",
 			"mcwlights:festive_lantern",
 			"mcwlights:cross_lantern",
-			"mcwlights:bell_lantern"
+			"mcwlights:bell_lantern",
+			
+			"chipped:blue_paper_lantern",
+			"chipped:burning_coal_lantern",
+			"chipped:checkered_iron_lantern",
+			"chipped:dark_blue_paper_lantern",
+			"chipped:ender_lantern",
+			"chipped:green_paper_lantern",
+			"chipped:iron_bowl_lantern",
+			"chipped:purple_paper_lantern",
+			"chipped:red_paper_lantern",
+			"chipped:small_green_lantern",
+			"chipped:white_paper_lantern",
+			"chipped:wooden_cage_lantern",
+			"chipped:wrought_iron_lantern",
+			"chipped:yellow_tube_lantern",
+			"chipped:blue_paper_soul_lantern",
+			"chipped:blue_tube_soul_lantern",
+			"chipped:checkered_iron_soul_lantern",
+			"chipped:golden_paper_soul_lantern",
+			"chipped:gray_paper_soul_lantern",
+			"chipped:iron_bowl_soul_lantern",
+			"chipped:lime_paper_soul_lantern",
+			"chipped:orange_paper_soul_lantern",
+			"chipped:small_red_soul_lantern",
+			"chipped:wooden_cage_soul_lantern",
+			"chipped:yellow_paper_soul_lantern"
 	};
 	
 	public static String[] medium_lanterns = {

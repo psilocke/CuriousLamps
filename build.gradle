@@ -39,6 +39,7 @@ minecraft {
             workingDirectory project.file('run')
             
             property 'mixin.env.remapRefMap', 'true'
+			
 			property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
 			
             property 'forge.logging.console.level', 'debug'
@@ -140,8 +141,13 @@ dependencies {
     
 	//runtimeOnly fg.deobf("curse.maven:jei-238222:3969039")
     
-    //runtimeOnly fg.deobf("curse.maven:supplementaries-412082:4027165")
-    //runtimeOnly fg.deobf("curse.maven:selene-499980:4028435")
+    //runtimeOnly fg.deobf("curse.maven:supplementaries-412082:5676069")
+    //runtimeOnly fg.deobf("curse.maven:selene-499980:5762673")
+    //runtimeOnly fg.deobf("curse.maven:supplementaries-squared-838411:5711238")
+    
+    //runtimeOnly fg.deobf("curse.maven:chipped-456956:5269158")
+    //runtimeOnly fg.deobf("curse.maven:athena-841890:5176879")
+    //runtimeOnly fg.deobf("curse.maven:resourceful-lib-570073:5659871")
     
     //runtimeOnly fg.deobf("curse.maven:cyclic-239286:3990512")
     
