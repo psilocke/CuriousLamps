@@ -59,7 +59,6 @@ public class LanternRenderer implements ICurioRenderer {
             f2 = Mth.clamp(f2, 0.0F, 150.0F);
             float f3 = (float)(d0 * d4 - d2 * d3) * 100.0F;
             f3 = Mth.clamp(f3, -20.0F, 20.0F);
-            
 
             matrixStack.mulPose(Axis.XP.rotationDegrees(6.0F + f2 / 2.0F + f1));
             matrixStack.mulPose(Axis.ZP.rotationDegrees(-f3 / 2.0F));
