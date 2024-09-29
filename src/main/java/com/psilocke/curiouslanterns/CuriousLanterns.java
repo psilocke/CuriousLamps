@@ -24,16 +24,23 @@ public class CuriousLanterns {
 	public static String[] lanterns = {
 			"minecraft:lantern",
 			"minecraft:soul_lantern",
+			
 			"supplementaries:copper_lantern",
 			"supplementaries:crimson_lantern",
 			"supplementaries:silver_lantern",
 			"supplementaries:brass_lantern",
 			"supplementaries:lead_lantern",
+
+			"suppsquared:copper_lantern",
+			"suppsquared:crimson_lantern",
+			"suppsquared:brass_lantern",
+			
 			"cyclic:gold_lantern",
 			"cyclic:gold_soul_lantern",
 			"cyclic:copper_lantern",
 			"cyclic:copper_soul_lantern",
 			"cyclic:netherite_lantern",
+			
 			"mcwlights:striped_lantern",
 			"mcwlights:covered_lantern",
 			"mcwlights:chain_lantern",

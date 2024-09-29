@@ -29,6 +29,18 @@
       "required": false
     },
     {
+      "id": "suppsquared:copper_lantern",
+      "required": false
+    },
+    {
+      "id": "suppsquared:crimson_lantern",
+      "required": false
+    },
+    {
+      "id": "suppsquared:brass_lantern",
+      "required": false
+    },
+    {
       "id": "cyclic:gold_lantern",
       "required": false
     },
